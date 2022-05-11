@@ -1,0 +1,334 @@
+body div[id^=nb-field-] div.nb-feedback {
+	position: relative!important;
+	margin: auto!important;
+}
+
+/*footer {
+    border-top: 1px solid rgba(0,0,0,0.1) !important;
+}*/
+
+.border-none {
+	border:0;
+}
+.text-small {
+	font-size:0.8rem;
+}
+.mt-50 {
+	margin-top:50px;
+}
+@media screen and (max-width: 450px) {
+	.mt-50 {
+		margin-top:10px;
+	}
+	.home-h1 {
+		2rem;
+		text-align: center;
+	}
+}
+.text-center {
+    text-align: center;
+}
+
+.es-subtitle {
+    color: #3498DB !important;
+    font-size: 1.6rem;
+}
+
+.progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+.card-glow {
+    -webkit-box-shadow: 0px 0px 3px 3px rgba(50,50,50,0.2);
+    -moz-box-shadow: 0px 0px 3px 3px rgba(50,50,50,0.2);
+    box-shadow: 0px 0px 3px 3px rgba(50,50,50,0.2);
+}
+
+.text-primary {
+	color:rgba(0, 0, 255)!important;
+    font-weight: 900;
+}
+.text-dark {
+    color:#666!important;
+}
+a.nlink {
+	color: #777;
+	text-decoration: underline;
+}
+a.nlink:hover {
+	color: #333;
+}
+.ff {
+	max-width: 350px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.ff2 {
+	max-width: 400px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.form-group {
+    max-width: 400px !important;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.is-invalid {
+    margin-bottom: 0px !important;
+}
+.american {
+	color:#0000ff;
+	font-weight:900!important;
+}
+.debt {
+	color:#666;
+	font-weight:300;
+}
+.a-step {
+	margin-bottom:15px;
+}
+.step-num {
+	background: #3498d8;
+	color: #fff;
+	font-weight: bold;
+	padding: 3px 6px;
+}
+
+.no-pm {
+	padding:0px!important;
+	margin:0px!important;
+}
+.menu-two a {
+	color:#fff;
+}
+.menu-two a:hover {
+
+}
+.home-h1 {
+	font-size:3rem;
+}
+
+.btn-light {
+    border: 1px solid #bbb;
+    color: #888;
+    background-color: #ddd;
+}
+a.btn-light:hover {
+    border: 1px solid #888;
+    color: #555;
+}
+.bold-text {
+    font-weight: 900;
+}
+/* slider action */
+.set-amount {
+	position: absolute;
+	top: -2em;
+	left: 50%;
+	width: 60px;
+	height: 1em;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5rem;
+	white-space: nowrap;
+}
+.set-year {
+    position: absolute;
+    top: -2em;
+    left: 50%;
+    width: 60px;
+    height: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+.set-age {
+        position: absolute;
+        top: -2em;
+        left: 50%;
+        width: 60px;
+        height: 1em;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        white-space: nowrap;
+    }
+.set-num {
+    position: absolute;
+    top: -2em;
+    left: 50%;
+    width: 60px;
+    height: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2rem;
+    white-space: nowrap;
+    color: #008c0b;
+}
+
+.range {
+	position: relative;
+	width:95%;
+	margin:auto;
+}
+@media screen and (min-width: 600px) {
+    .range {
+        width:75%;
+    }
+}
+
+input[type=range]{
+    -webkit-appearance:none;
+    width:100%;
+    background:0 0
+}
+input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance:none
+}
+input[type=range]:focus{
+    outline:0
+}
+input[type=range]::-ms-track{
+    width:100%;
+    cursor:pointer;
+    background:0 0;
+    border-color:transparent;
+    color:transparent
+}
+input[type=range]::-webkit-slider-thumb,input[type=range]::-webkit-slider-thumb:hover{
+    -webkit-appearance:none;
+    border:8px solid #095e82;
+    height:40px;
+    width:40px;
+    border-radius:20px;
+    background:#03c04a;
+    background:#fff;
+    cursor:pointer;
+    margin-top:-14px
+}
+input[type=range]::-webkit-slider-thumb:hover{
+    background:#03c04a;
+    background:#fff;
+    background:#095e82;
+    background:#388eb3
+}
+input[type=range]::-moz-range-thumb{
+    border:8px solid #095e82;
+    height:25px;
+    width:25px;
+    border-radius:25px;
+    background:#03c04a;
+    background:#fff;
+    cursor:pointer
+}
+input[type=range]::-moz-range-thumb:hover{
+    background:#03c04a;
+    background:#fff;
+    background:#388eb3
+}
+input[type=range]::-ms-thumb,input[type=range]::-ms-thumb:hover{
+    border:8px solid #095e82;
+    height:21px;
+    width:21px;
+    border-radius:20px;
+    background:#fff;
+    cursor:pointer;
+    margin-top:3px;
+    cursor:pointer
+}
+input[type=range]::-ms-thumb:hover{
+    background:#03c04a;
+    background:#fff;
+    background:#388eb3
+}
+input[type=range]::-ms-track{
+    width:100%;
+    height:14px;
+    cursor:pointer;
+    background:0 0;
+    border-color:transparent;
+    border-width:14px 0;
+    color:transparent
+}
+input[type=range]::-ms-fill-lower{
+    background:#308db5;
+    border:0 solid #010101;
+    border-radius:10px
+}
+input[type=range]:focus::-ms-fill-lower{
+    background:#308db5;
+    background:#03c04a
+}
+input[type=range]::-ms-fill-upper{
+    background:#308db5;
+    border:0 solid #010101;
+    border-radius:10px
+}
+input[type=range]:focus::-ms-fill-upper{
+    background:#308db5
+}
+input[type=range]::-webkit-slider-runnable-track{
+    width:100%;
+    height:18px;
+    cursor:pointer;
+    background:#308db5;
+    border-radius:10px;
+    border:4px solid #308db5
+}
+input[type=range]:focus::-webkit-slider-runnable-track{
+    background:#308db5
+}
+input[type=range]::-moz-range-track{
+    width:100%;
+    height:14px;
+    cursor:pointer;
+    background:#308db5;
+    border-radius:10px;
+    border:2px solid #308db5
+}
+input[type=range]::-moz-range-progress{
+    background-color:#03c04a;
+    height:14px;
+    border-radius:10px;
+    border:2px solid #03c04a
+}
+#slider_d{
+    display:inline-block;
+    position:relative;
+    width:75%;
+    margin-left:0;
+    margin-top:80px
+}
+#your_debt_amount{
+    display:block;
+    width:100px;
+    height:20px;
+    position:absolute;
+    top:-44px;
+    color:#333;
+    text-align:left;
+    font-size:24px
+}
+#debt-max,#debt-min{
+    display:block;
+    width:100%;
+    height:20px;
+    position:absolute;
+    top:28px;
+    color:#333;
+    text-align:left;
+    font-size:18px
+}
+#debt-max{
+    text-align:right
+}
+
+.blue-href a {
+    color: #007bff!important;
+}
+.blue-href a:hover {
+    /*color: #0062ff!important;*/
+    color: #004cff!important;
+}
